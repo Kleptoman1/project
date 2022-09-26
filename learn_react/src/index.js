@@ -15,3 +15,16 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+import React from 'react'
+import {render} from 'react-dom'
+
+
+function Helloworld () {
+    return(
+        <div>
+            <h1>Hello world</h1>
+        </div>
+    )
+}
+
+render(<Helloworld/>,document.getElementByid('root') )
